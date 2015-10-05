@@ -12,11 +12,6 @@ namespace PTSEmailListingMVC.Controllers
         {
             return View();
         }
-        public ActionResult Index()
-        {
-            return View();
-        }
-
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -26,7 +21,7 @@ namespace PTSEmailListingMVC.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page for Mark Kolev";
+            ViewBag.Message = "Your contact page.";
 
             return View();
         }
